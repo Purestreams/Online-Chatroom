@@ -1,0 +1,124 @@
+.h1 {
+    text-align: center;
+    font-size: auto;
+    line-break: auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#chat_window {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    height: 90%;
+    width: 90%;
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ACE2E1;
+    padding: 20px;
+}
+
+#logout {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#message_box {
+    border-radius: 2px;
+    border: 1px solid #000000;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px; 
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+}
+
+#message {
+    border-radius: 10px;
+    border: 1px solid #5b5b5b;
+    padding: 10px;
+    width: fit-content;
+    max-width: 60%;
+    height: fit-content;
+    background-color: #008DDA;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+
+#message_me {
+    border-radius: 10px;
+    border: 1px solid #5b5b5b;
+    padding: 10px;
+    float: right;
+    width: fit-content;
+    max-width: 60%;
+    height: fit-content;
+    background-color: #41C9E2;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#message_name {
+    font-weight: bold;
+    font-size: small;
+    float: left;
+}
+
+#message_time {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: small;
+    float: right;
+    margin-left: 5px;
+}
+#message_text {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: fit-content;
+    line-break: anywhere;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#input_block {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #ACE2E1;
+}
+
+#message_input {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+}
+
+#send {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #008DDA;
+    color: white;
+    margin-left: 10px;
+}
+
+#userid {
+    display: none;
+    height: 0px;
+    width: 0px;
+}

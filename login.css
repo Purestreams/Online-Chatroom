@@ -1,0 +1,41 @@
+.body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#head_text {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+#login_block {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#register_block {
+    margin-top: 0px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#button_reg {
+    padding: 0%;
+    border: none;
+    color: blue;
+    text-decoration:underline;
+}
